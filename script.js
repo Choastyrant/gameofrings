@@ -147,7 +147,7 @@ window.onload = function() {
 };
 
 function resizeGame() {
-    var widthToHeight = 5 / 4;
+    var widthToHeight = 6 / 4;
     var newWidth = window.innerWidth;
     var newHeight = window.innerHeight;
     var newWidthToHeight = newWidth / newHeight;
@@ -182,7 +182,7 @@ function resizeGame() {
 	offsetLeft = gameArea.offsetLeft+leftmiddle.clientWidth;
 	
 	if (android || ios) {
-            document.body.style.height = (window.innerHeight + 50) + 'px';
+            //document.body.style.height = (window.innerHeight + 50) + 'px';
      }
 		
 	var topArea = document.getElementById('toparea');
