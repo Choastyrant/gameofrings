@@ -56,8 +56,8 @@ var spawnconstant=1;
 var difficultytimer=0;
 var timer=0;
 var pausegame=false;
-var difficultyconstant=1;
-var difficultyscalar=1;
+var difficultyconstant=0.5;
+var difficultyscalar=1.2;
 
 //boolean variables for timer related events
 var timernote=true;
@@ -147,7 +147,7 @@ window.onload = function() {
 };
 
 function resizeGame() {
-    var widthToHeight = 7 / 4;
+    var widthToHeight = 6 / 4;
     var newWidth = window.innerWidth;
     var newHeight = window.innerHeight;
     var newWidthToHeight = newWidth / newHeight;
