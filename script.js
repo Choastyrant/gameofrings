@@ -141,13 +141,13 @@ window.onload = function() {
 	highestscore = getCookie("hs");
 	if(!isNumber(highestscore)){
 		highestscore=0;
-		document.cookie="hs=0, expires=Thu, 28 Dec 2017 12:00:00 UTC";
+		document.cookie="hs=0, expires=Thu, 28 Dec 2022 12:00:00 UTC";
 	}
 	updateHighscore();
 };
 
 function resizeGame() {
-    var widthToHeight = 6 / 4;
+    var widthToHeight = 4 / 4;
     var newWidth = window.innerWidth;
     var newHeight = window.innerHeight;
     var newWidthToHeight = newWidth / newHeight;
