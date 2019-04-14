@@ -147,7 +147,7 @@ window.onload = function() {
 };
 
 function resizeGame() {
-    var widthToHeight = 5 / 4;
+    var widthToHeight = 4 / 4;
     var newWidth = window.innerWidth;
     var newHeight = window.innerHeight;
     var newWidthToHeight = newWidth / newHeight;
