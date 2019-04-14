@@ -1,0 +1,305 @@
+
+body {
+	padding:0px;
+}
+
+#websitelink{
+	position:absolute;
+	top:5%;
+	right:80%;
+	z-index:5000;
+
+}
+
+#gameArea{
+	position:absolute;
+	left:50%;
+	top:50%;
+	min-height:800px;
+}
+
+#topBar{
+	width:100%;
+	position:absolute;
+	height:50px;
+	background-color:#000000;
+	top:0px;
+	left:0px;
+}
+
+#toparea{
+	width:100%;
+	height:20%;
+	position:absolute;
+	top:0px;
+	background-color: #000000;
+}
+
+#banner {
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	height:100%;	
+	position:absolute;
+}
+
+#canvas{
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	height:576px;
+	width:806px;
+	position:absolute;
+}
+
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+	background-color: #000000;
+    left: 0;
+	top:0;
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+    opacity: 0.9;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+#middle{
+	top:20%;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	position:absolute;
+}
+
+#quiz{
+	text-align:center;
+	width:700px;
+	height:500px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#starting{
+	height:91px;
+	background-image: url("images/start.png");
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+#starting:hover{
+	background-image: url("images/start2.png");
+	cursor:pointer;
+}
+
+#samwiseicon:hover{
+	cursor:pointer;
+}
+
+#samwellicon:hover{
+	cursor:pointer;
+}
+
+.image {
+	position:absolute;
+	width:100%;
+	height:31.2%;
+	top:0px;
+	left:0px;
+}
+
+.image img {
+	width: 100%;
+	vertical-align:top;
+}
+
+.image:after {
+    content: '\A';
+    position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.image:hover:after {
+    opacity: .7;
+}
+
+#statbox{
+	top:31.5%;
+	width:100%;
+	bottom:0;
+	left:0;
+	position:absolute;
+}
+
+#streakbox{
+	padding-left:5px;
+	margin-left:5px;
+	text-align:left;
+    background-color: #ffffff;
+	opacity: 0.5;
+}
+
+#scorebox{
+	padding-left:5px;
+	margin-left:5px;
+	text-align:left;
+    background-color: #ffffff;
+	opacity: 0.5;
+}
+
+#accuracybox{
+	padding-left:5px;
+	margin-left:5px;
+	text-align:left;
+    background-color: #ffffff;
+	opacity: 0.5;
+}
+
+#highestscore{
+	padding-left:5px;
+	margin-left:5px;
+	text-align:left;
+    background-color: #ffffff;
+	opacity: 0.5;
+}
+
+#inventory{
+	padding-left:5px;
+	margin-left:5px;
+	text-align:left;
+    background-color: #ffffff;
+	opacity: 0.7;
+}
+
+#difficultymarker{
+	padding-left:5px;
+	margin-left:5px;
+	text-align:left;
+    background-color: #ffffff;
+	opacity: 0.7;
+}
+
+#ngbutton{
+	margin-top:30%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	max-width:100%;
+}
+
+#pausebutton{
+	margin-top:10%;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	max-width:100%;
+}
+
+#announcementbox{
+	width:100%;
+	top:31.5%;
+	position:absolute;
+	line-height:100%;
+}
+
+.announcement{
+	text-align:center;
+	padding:1px;
+	margin-left:5px;
+	margin-right:5px;
+    background-color: #ffffff;
+	opacity: 0.5;
+}
+
+#towncrier{
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	max-width:100%;
+	height:auto;
+	width:auto\9; /*ie8*/
+}
+
+#statistics{
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	max-width:100%;
+	height:auto;
+	width:auto\9; /*ie8*/
+}
+
+img{
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#samwellimg{
+	width:100%;
+}
+
+#samwiseimg{
+	width:100%;
+}
+
+#leftmiddle{
+	top:0;
+	bottom:0;
+	left:0;
+	width:16%;
+	height:100%;
+	position:absolute;
+}
+
+#middlemiddle{
+	top:0;
+	bottom:0;
+	height:100%;
+	left:16%;
+	right:84%;
+	width:68%;
+	position:absolute;
+}
+
+#rightmiddle{
+	top:0;
+	bottom:0;
+	right:0;
+	width:16%;
+	height:100%;
+	position:absolute;
+}
+
+.fb-share-button{
+	bottom:0px;
+	right:0px;
+	height:100px;
+	width:100px;
+	position:absolute;
+	z-index:500;
+}
+
+#map{
+	opacity:8;
+}
+
+#map2{
+	opacity:8;
+}
