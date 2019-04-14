@@ -21,7 +21,7 @@ body {
 #topBar{
 	width:100%;
 	position:absolute;
-	height:0px;
+	height:100%;
 	background-color:#000000;
 	top:0px;
 	left:0px;
@@ -263,7 +263,7 @@ img{
 	top:0;
 	bottom:0;
 	left:0;
-	width:16%;
+	width:13%;
 	height:100%;
 	position:absolute;
 }
@@ -272,9 +272,9 @@ img{
 	top:0;
 	bottom:0;
 	height:100%;
-	left:16%;
-	right:84%;
-	width:68%;
+	left:13%;
+	right:87%;
+	width:74%;
 	position:absolute;
 }
 
@@ -282,7 +282,7 @@ img{
 	top:0;
 	bottom:0;
 	right:0;
-	width:16%;
+	width:13%;
 	height:100%;
 	position:absolute;
 }

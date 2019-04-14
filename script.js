@@ -77,7 +77,7 @@ var mission2dgcount=0;
 var mission2dginventory=0;
 var gameover=false;
 var wintimer=200;
-var easymode=false;
+var easymode=true;
 
 var updateHighscore=function(){
 	var comment='<b>Your Highscore:</b> '+highestscore;
@@ -119,14 +119,14 @@ pauseGame=function(){
 }
 
 changeEasy=function(){
-	difficultyconstant=0.75;
+	difficultyconstant=0.50;
 	difficultyscalar=1.2;
 	easymode=true;
 	pushAnnouncement("<b>Difficulty set: EASY</br>");
 }
 
 changeHard=function(){
-	difficultyconstant=1;
+	difficultyconstant=0.8;
 	difficultyscalar=1;
 	easymode=false;
 	pushAnnouncement("<b>Difficulty set: HARD</br>");
@@ -163,7 +163,7 @@ function resizeGame() {
     
     gameArea.style.marginTop = (-newHeight / 2) + 'px';
     gameArea.style.marginLeft = (-newWidth / 2) + 'px';
-	gameArea.style.fontSize = (newWidth / 1220) + 'em';
+	gameArea.style.fontSize = (newWidth / 1420) + 'em';
 	
 	var middleArea = document.getElementById('middlemiddle');
 	if(middleArea.clientWidth/806>middleArea.clientHeight/576){
